@@ -6,10 +6,11 @@ using System.Net.Mail;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using N37_HT1.Services.Interfaces;
 
 namespace N37_HT1.Services
 {
-    public class EmailSenderService
+    public class EmailSenderService : IEmailSenderServiceService
     {
         public async Task SendEmailsAsync(IEnumerable<EmailMessage> messages)
         {

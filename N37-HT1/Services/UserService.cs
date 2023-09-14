@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using N37_HT1.Services.Interfaces;
 
 namespace N37_HT1.Services
 {
-    public class UserService
+    public class UserService : IUserservice
     {
         public List<User> users;
 

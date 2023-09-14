@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using N37_HT1.Services.Interfaces;
 
 namespace N37_HT1.Services
 {
-    public class EmailService
+    public class EmailService : IEmailService
     {
         public IEnumerable<EmailMessage> GetMessages(IEnumerable<EmailTemplate> templates, IEnumerable<User> users)
         {
