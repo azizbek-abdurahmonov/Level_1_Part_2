@@ -1,9 +1,10 @@
 ﻿using Bogus;
 using N38_HT2.Models;
+using N38_HT2.Services.Interfaces;
 
 namespace N38_HT2.Services;
 
-public class GenerateFakeDataService
+public class GenerateFakeDataService : IGenerateFakeDataService
 {
     public List<Employee> GenerateFakeEmployees(int count = 1)
     {

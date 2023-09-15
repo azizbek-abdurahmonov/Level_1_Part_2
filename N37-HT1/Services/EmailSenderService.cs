@@ -10,7 +10,7 @@ using N37_HT1.Services.Interfaces;
 
 namespace N37_HT1.Services
 {
-    public class EmailSenderService : IEmailSenderServiceService
+    public class EmailSenderService : IEmailSenderService
     {
         public async Task SendEmailsAsync(IEnumerable<EmailMessage> messages)
         {

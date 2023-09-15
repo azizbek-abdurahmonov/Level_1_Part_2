@@ -2,7 +2,7 @@
 
 namespace N37_HT1.Services.Interfaces;
 
-public interface IEmailSenderServiceService
+public interface IEmailSenderService
 {
     Task SendEmailsAsync(IEnumerable<EmailMessage> messages);
 }

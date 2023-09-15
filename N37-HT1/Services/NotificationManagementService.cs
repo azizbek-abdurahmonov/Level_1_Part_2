@@ -9,10 +9,10 @@ namespace N37_HT1.Services
 {
     public class NotificationManagementService : INotificationManagementService
     {
-        private UserService _userService;
-        private EmailService _emailService;
-        private EmailTemplateService _emailTemplateService;
-        private EmailSenderService _emailSenderService;
+        private IUserservice _userService;
+        private IEmailService _emailService;
+        private IEmailTemplateService _emailTemplateService;
+        private IEmailSenderService _emailSenderService;
 
         public NotificationManagementService(UserService userService, EmailService emailService,
             EmailTemplateService emailTemplateService, EmailSenderService emailSenderService)
