@@ -17,7 +17,7 @@ public class AccountService : IAccountService
         _users = new List<User>();
     }
 
-    public async Task<bool> Register(string firstName, string lastName, string emailAddress, string password)
+    public async Task<bool> RegisterAsync(string firstName, string lastName, string emailAddress, string password)
     {
         if (!_validatorService.IsValidEmailAddress(emailAddress) || !_validatorService.IsValidPassword(password))
             throw new ArgumentException("Email address or password is'nt valid!");
