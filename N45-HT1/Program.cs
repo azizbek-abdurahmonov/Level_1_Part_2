@@ -48,11 +48,11 @@ var orderProducts = new List<OrderProduct>
 var userId = users[random.Next(users.Count)].Id;
 
 var query =
-    from user in users
+   (from user in users
     join order in orders on user.Id equals order.UserId
     join orderProduct in orderProducts on order.Id equals orderProduct.OrderId
     join product in products on orderProduct.ProductId equals product.Id
     where user.Id == userId
-    select product.Name;
+    select product.Name).Distinct();
 
 query.ToList().ForEach(Console.WriteLine);
