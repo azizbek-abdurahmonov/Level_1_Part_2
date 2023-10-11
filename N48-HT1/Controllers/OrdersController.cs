@@ -43,4 +43,8 @@ public class OrdersController : ControllerBase
         return result is not null ? Ok(result) : NotFound();
     }
 
+    public IActionResult Result(Guid userid)
+    {
+        throw new NotImplementedException();
+    }
 }
