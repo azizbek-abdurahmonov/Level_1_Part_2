@@ -5,7 +5,7 @@ using N52_HT1_Console.Events;
 using N52_HT1_Console.Models;
 using N52_HT1_Console.Services;
 using N52_HT1_Console.Services.Interfaces;
-using N52_HT1.DataAccess;
+using N52_HT1_Console.DataAccess;
 
 var builder = new ServiceCollection();
 

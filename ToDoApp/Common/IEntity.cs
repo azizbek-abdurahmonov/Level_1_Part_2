@@ -1,6 +1,6 @@
 ﻿using FileBaseContext.Abstractions.Models.Entity;
 
-namespace Training.TruckWorld.Backend.Domain.Common;
+namespace ToDoApp.Common;
 
 public interface IEntity : IFileSetEntity<Guid>
 {

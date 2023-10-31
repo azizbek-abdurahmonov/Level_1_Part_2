@@ -3,7 +3,6 @@ using N53_HT1.Api.DataAccess;
 using N53_HT1.Api.Events;
 using N53_HT1.Api.Interfaces;
 using N53_HT1.Api.Services;
-using N53_HT1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

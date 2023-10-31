@@ -33,7 +33,7 @@ public class TokenGeneratorService
         var credentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
         return new JwtSecurityToken(
-            issuer: "MyServer.App",
+            issuer: "MyServerApp",
             audience: "MyClientApp",
             claims: claims,
             signingCredentials: credentials,

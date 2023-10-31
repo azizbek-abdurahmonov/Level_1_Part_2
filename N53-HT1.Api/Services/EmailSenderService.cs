@@ -1,7 +1,6 @@
-﻿
-using N53_HT1.Api.Interfaces;
+﻿using N53_HT1.Api.Interfaces;
 
-namespace N53_HT1.Services;
+namespace N53_HT1.Api.Services;
 
 public class EmailSenderService : INotificationService
 {

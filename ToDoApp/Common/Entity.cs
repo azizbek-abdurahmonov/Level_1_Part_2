@@ -1,4 +1,4 @@
-﻿namespace Training.TruckWorld.Backend.Domain.Common;
+﻿namespace ToDoApp.Common;
 
 public abstract class Entity : IEntity
 {

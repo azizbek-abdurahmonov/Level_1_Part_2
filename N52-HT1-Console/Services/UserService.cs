@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using N52_HT1_Console.Events;
 using N52_HT1_Console.Models;
 using N52_HT1_Console.Services.Interfaces;
-using N52_HT1.DataAccess;
+using N52_HT1_Console.DataAccess;
 
 namespace N52_HT1_Console.Services;
 
