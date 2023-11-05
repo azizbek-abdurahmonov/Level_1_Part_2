@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ff354ef7-e713-4255-9d9e-adb4474add7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Application/Common/Identity/Services/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Domain/Entities/Course.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Domain/Entities/Location.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Domain/Entities/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Domain/Entities/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Domain/Entities/UserSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Domain/Enums/LocationType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Domain/N67.Identity.Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Infrastructure/Common/Identity/Services/LocationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Infrastructure/Common/Identity/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N67.Identity.Persistence/DataAccess/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Level_1_Part_2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Level_1_Part_2.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N52-HT1-Console/DataAccess/AppFileContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N52-HT1-Console/DataAccess/AppFileContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N52-HT1-Console/DataAccess/IDataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N52-HT1-Console/DataAccess/IDataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N52-HT1-Console/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N52-HT1-Console/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N52-HT1-Console/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N52-HT1-Console/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N53-HT1.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N53-HT1.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N53-HT1.Api/Services/EmailSenderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N53-HT1.Api/Services/EmailSenderService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N62-HT1/Services/TokenGeneratorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N62-HT1/Services/TokenGeneratorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N62-HT1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/N62-HT1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Common/AuditableEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Common/AuditableEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Common/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Common/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Common/IAuditableEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Common/IAuditableEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Common/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Common/IEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Common/ISoftDeletedEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Common/ISoftDeletedEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Common/SoftDeletedEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Common/SoftDeletedEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/DataAccess/AppFileContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/DataAccess/AppFileContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Models/ToDo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Models/ToDo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Models/User.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +27,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2XXLA9QKCh4oWif5OkthWxTnMro" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/azizb"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/azizb&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>

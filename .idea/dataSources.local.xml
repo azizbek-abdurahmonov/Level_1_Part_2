@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="DB-232.10203.8">
+    <data-source name="postgres@localhost" uuid="2439bb58-6973-4b64-9e1e-a0c55f9e9aa2">
+      <database-info product="PostgreSQL" version="16.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="16.0" exact-driver-version="42.6">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" negative="1" />
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="ManyToManyDB" />
+              <name qname="N67Identity" />
+              <name qname="OneToManyDB" />
+              <name qname="OneToOneExampleDB" />
+              <name qname="postgres" />
+              <name qname="RelationA" />
+              <name qname="tempDB" />
+              <name qname="EfRelations.ApproachA" />
+              <name qname="EfRelations.ApproachB" />
+              <name qname="EfRelations.ApproachC" />
+              <name qname="EfRelations.ApproachD" />
+              <node kind="schema" negative="1" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
