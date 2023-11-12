@@ -24,7 +24,7 @@ public class FileService : IFileService
     {
         var folderPath = Path.Combine(_basePath, _folderName);
 
-        if(!Directory.Exists(_basePath))
+        if (!Directory.Exists(_basePath))
             Directory.CreateDirectory(_basePath);
 
         if (!Directory.Exists(folderPath))
@@ -32,6 +32,6 @@ public class FileService : IFileService
 
         var stream = File.OpenRead(image.FileName);
 
-        return image.FileName;
+        return new(image.FileName);
     }
 }

@@ -11,7 +11,7 @@ var service = new UserService();
 
 var addedAges = service.AddAge(users);
 
-Console.WriteLine(addedAges.FirstName);
+Console.WriteLine(addedAges);
 
 //foreach (var user in service.AddAge(users))
 //{
@@ -34,7 +34,7 @@ public class User
 
 public class UserService
 {
-    public List<User> AddAge(IEnumerable<User> users)
+    public IEnumerable<User> AddAge(IEnumerable<User> users)
     {
         foreach (var user in users)
         {

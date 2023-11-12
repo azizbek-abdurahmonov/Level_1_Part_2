@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>N71_HT1.Infrastructure</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\N71-HT1.Application\N71-HT1.Application.csproj" />
+      <ProjectReference Include="..\N71-HT1.Persistence\N71-HT1.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>

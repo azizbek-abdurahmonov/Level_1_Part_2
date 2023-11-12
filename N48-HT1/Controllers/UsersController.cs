@@ -31,7 +31,7 @@ public class UsersController : ControllerBase
     public async ValueTask<IActionResult> CreateUser(User user)
     {
         var result = await _userService.CreateAsync(user);
-        return CreatedAtAction(nameof(result), new { userId = result.Id }, result);
+        return CreatedAtAction(nameof(GetById),new { userId = result.Id }, result);
     }
 
     [HttpPut]

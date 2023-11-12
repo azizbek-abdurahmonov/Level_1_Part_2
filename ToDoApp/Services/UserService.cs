@@ -1,6 +1,5 @@
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
-using Microsoft.AspNetCore.Identity;
 using ToDoApp.DataAccess;
 using ToDoApp.Models;
 using ToDoApp.Services.Interfaces;
@@ -78,6 +77,11 @@ public class UserService : IUserService
             await _context.SaveChangesAsync();
 
         return found;
+    }
+
+    public ValueTask<User> UploadImageAsync(Guid userId, UploadImageDto image, CancellationToken cancellationToken = default)
+    {
+        throw new NotImplementedException();
     }
 
     private void ToValidate(User user)
