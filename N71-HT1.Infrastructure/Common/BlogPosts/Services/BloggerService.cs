@@ -1,25 +1,23 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using N71_HT1.Application.Common.BlogPosts.Services;
 using N71_HT1.Domain.Entities;
-using N71_HT1.Persistence.DataContexts;
 
 namespace N71_HT1.Infrastructure.Common.BlogPosts.Services;
 
 public class BloggerService : IBloggerService
 {
-    private readonly BlogPostsDbContext _dbContext;
+    private readonly IUserService _userService;
 
-    public BloggerService(BlogPostsDbContext dbContext)
+    public BloggerService(IUserService userService)
     {
-        _dbContext = dbContext;
+        _userService = userService;
     }
 
     public ValueTask<IQueryable<User>> GetPopularBloggers()
     {
-        return new(_dbContext.Users
+        return new(_userService.Get(user => true)
             .Include(user => user.BlogPosts)
-            .Where(user => user.BlogPosts.Count >= 5
-                && user.BlogPosts.All(blog => blog.Comments.Count >= 20))
+            .Where(user => user.BlogPosts.Count >= 5 && user.BlogPosts.All(blog => blog.Comments.Count >= 20))
             .OrderBy(user => user.BlogPosts.Count));
     }
 }
