@@ -5,108 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff354ef7-e713-4255-9d9e-adb4474add7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Api/Configuration/HostConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Api/Controllers/AccountsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Api/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Constants/ClaimConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Enums/VerificationType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Models/LoginDetails.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Models/RegistrationDetails.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Models/VerificationToken.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Services/IAccountService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Services/IAuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Services/IPasswordHasherService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Services/IRoleService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Services/ITokenGeneratorService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Services/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Identity/Services/IVerificationTokenGeneratorService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Notifications/Services/IEmailOrchestrationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Settings/EmailSenderSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Settings/JwtSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Application/Common/Settings/VerificationTokenSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Domain/Common/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Domain/Entities/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Domain/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Domain/Enums/RoleType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Infrastructure/Common/Identity/Services/AccountService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Infrastructure/Common/Identity/Services/AuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Infrastructure/Common/Identity/Services/PasswordHasherService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Infrastructure/Common/Identity/Services/RoleService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Infrastructure/Common/Identity/Services/TokenGeneratorService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Infrastructure/Common/Identity/Services/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Infrastructure/Common/Identity/Services/VerificationTokenGeneratorService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Infrastructure/Common/Notifications/Services/EmailOrchestrationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/DataContexts/IdentityDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/EntityConfiguration/RoleConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/EntityConfiguration/UserConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/Repositories/EntityRepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/Repositories/Interfaces/IEntityRepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/Repositories/Interfaces/IRoleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/Repositories/Interfaces/IUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/Repositories/RoleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N70.Identity.Persistence/Repositories/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Domain/Common/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Domain/Entities/Blog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Domain/Entities/Comment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Domain/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Persistence/DataContexts/BlogPostsDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Persistence/EntitiesConfiguration/BlogConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Persistence/EntitiesConfiguration/CommentConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Persistence/EntitiesConfiguration/UserConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Persistence/Repositories/EntityRepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N71-HT1.Persistence/Repositories/Interfaces/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2439bb58-6973-4b64-9e1e-a0c55f9e9aa2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2439bb58-6973-4b64-9e1e-a0c55f9e9aa2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level_1_Part_2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Level_1_Part_2.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N37-Dars/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N37-Dars/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N37-Task1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N37-Task1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N38-Task1/N38-Task1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/N38-Task1/N38-Task1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N38-Task1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N38-Task1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N40-Task1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N40-Task1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N48-HT1/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N48-HT1/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/Configurations/HostConfiguration.Extensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/Configurations/HostConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N70.Identity.Api/Configuration/HostConfiguration.Extensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/Controller/CoursesController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/Controller/LocationsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/N67.Identity.Api.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Api/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Application/Common/Identity/Services/ICourseService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Application/Common/Identity/Services/ILocationService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Application/Common/Identity/Services/IRoleService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Application/Common/Identity/Services/IStudentCourseService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Application/Common/Identity/Services/IUserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Application/Common/Identity/Services/IUserSettingsService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Application/N67.Identity.Application.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Domain/Entities/Course.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Domain/Entities/CourseStudent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Domain/Entities/Location.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Domain/Entities/Role.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Domain/Entities/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Domain/Entities/UserSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Domain/Enums/LocationType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Domain/N67.Identity.Domain.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Infrastructure/Common/Identity/Services/CourseService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Infrastructure/Common/Identity/Services/LocationService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Infrastructure/Common/Identity/Services/RoleService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Infrastructure/Common/Identity/Services/StudentCourseService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Infrastructure/Common/Identity/Services/UserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Infrastructure/Common/Identity/Services/UserSettingsService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Infrastructure/N67.Identity.Infrastructure.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/DataAccess/AppDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/EntityConfiguration/CourseConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/EntityConfiguration/LocationConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/EntityConfiguration/StudentCourseConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/EntityConfiguration/UserConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/Migrations/20231102125030_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/Migrations/20231102125030_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N67.Identity.Persistence/N67.Identity.Persistence.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Services/FileService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Services/FileService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoApp/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoApp/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N71-HT1.Api/Controllers/BloggersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N71-HT1.Api/Controllers/BloggersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N71-HT1.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N71-HT1.Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N71-HT1.Infrastructure/Common/BlogPosts/Services/CommentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N71-HT1.Infrastructure/Common/BlogPosts/Services/CommentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N71-HT1.Infrastructure/Common/BlogPosts/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N71-HT1.Infrastructure/Common/BlogPosts/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N71-HT1.Persistence/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N71-HT1.Persistence/Repositories/UserRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

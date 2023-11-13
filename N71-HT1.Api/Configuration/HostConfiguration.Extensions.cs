@@ -24,7 +24,8 @@ public static partial class HostConfiguration
         builder.Services
             .AddScoped<IUserService, UserService>()
             .AddScoped<IBlogService, BlogService>()
-            .AddScoped<ICommentService, CommentService>();
+            .AddScoped<ICommentService, CommentService>()
+            .AddScoped<IBloggerService, BloggerService>();
 
         return builder;
     }

@@ -14,39 +14,39 @@ public class CommentService : ICommentService
         _commentRepository = commentRepository;
     }
 
-    public ValueTask<Comment> CreateAsync(Comment comment, bool saveChanges = true, CancellationToken cancellationToken = default)
+    public async ValueTask<Comment> CreateAsync(Comment comment, bool saveChanges = true, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        return await _commentRepository.CreateAsync(comment, saveChanges, cancellationToken);
     }
 
-    public ValueTask<Comment?> DeleteAsync(Comment comment, bool saveChanges = true, CancellationToken cancellationToken = default)
+    public async ValueTask<Comment?> DeleteAsync(Comment comment, bool saveChanges = true, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        return await _commentRepository.DeleteAsync(comment, saveChanges, cancellationToken);
     }
 
-    public ValueTask<Comment?> DeleteByIdAsync(Guid id, bool saveChanges = true, CancellationToken cancellationToken = default)
+    public async ValueTask<Comment?> DeleteByIdAsync(Guid id, bool saveChanges = true, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        return await _commentRepository.DeleteByIdAsync(id, saveChanges, cancellationToken);
     }
 
     public IQueryable<Comment> Get(Expression<Func<Comment, bool>> predicate, bool asNoTracking = false)
     {
-        throw new NotImplementedException();
+        return _commentRepository.Get(predicate, asNoTracking);
     }
 
-    public ValueTask<Comment> GetByIdAsync(Guid id, bool asNoTracking = false, CancellationToken cancellationToken = default)
+    public async ValueTask<Comment> GetByIdAsync(Guid id, bool asNoTracking = false, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        return await _commentRepository.GetByIdAsync(id, asNoTracking, cancellationToken);
     }
 
-    public ValueTask<ICollection<Comment>> GetByIdsAsync(IEnumerable<Guid> ids, bool asNoTracking = false, CancellationToken cancellationToken = default)
+    public async ValueTask<ICollection<Comment>> GetByIdsAsync(IEnumerable<Guid> ids, bool asNoTracking = false, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        return await _commentRepository.GetByIdsAsync(ids, asNoTracking, cancellationToken);
     }
 
-    public ValueTask<Comment> UpdateAsync(Comment comment, bool saveChanges = true, CancellationToken cancellationToken = default)
+    public async ValueTask<Comment> UpdateAsync(Comment comment, bool saveChanges = true, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        return await _commentRepository.UpdateAsync(comment, saveChanges, cancellationToken);
     }
 
     private void Validate(Comment comment)

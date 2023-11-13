@@ -1,4 +1,5 @@
-﻿using N71_HT1.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using N71_HT1.Domain.Entities;
 using N71_HT1.Persistence.DataContexts;
 using N71_HT1.Persistence.Repositories.Interfaces;
 using System.Linq.Expressions;
