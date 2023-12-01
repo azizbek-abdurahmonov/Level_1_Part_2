@@ -16,11 +16,16 @@
               <node kind="schema" qname="@" />
             </node>
             <node kind="database">
+              <name qname="BackgroundServiceExample" />
               <name qname="BlogPostsDB" />
               <name qname="CrudExample" />
+              <name qname="InterceptorsExampleDB" />
+              <name qname="LazyExampleDB" />
               <name qname="ManyToManyDB" />
               <name qname="N67Identity" />
               <name qname="N70Identity" />
+              <name qname="N76HT-InterceptorsDB" />
+              <name qname="NotificationsInfrastructure" />
               <name qname="OneToManyDB" />
               <name qname="OneToOneExampleDB" />
               <name qname="postgres" />
