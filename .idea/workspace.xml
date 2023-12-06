@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff354ef7-e713-4255-9d9e-adb4474add7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/2439bb58-6973-4b64-9e1e-a0c55f9e9aa2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2439bb58-6973-4b64-9e1e-a0c55f9e9aa2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Level_1_Part_2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Level_1_Part_2.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N71-HT1.Infrastructure/Common/BlogPosts/Services/CommentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/N71-HT1.Infrastructure/Common/BlogPosts/Services/CommentService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
