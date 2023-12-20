@@ -42,8 +42,8 @@ public class UsersController(IUserService userService) : ControllerBase
         return result is not null ? Ok(result) : NoContent();
     }
 
-    [HttpDelete]
-    public async ValueTask<IActionResult> Delete([FromBody] Guid id)
+    [HttpDelete("{id:guid}")]
+    public async ValueTask<IActionResult> Delete([FromRoute] Guid id)
     {
         var result = await userService.DeleteByIdAsync(id);
 

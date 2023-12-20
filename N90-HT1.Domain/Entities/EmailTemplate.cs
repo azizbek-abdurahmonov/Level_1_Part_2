@@ -1,0 +1,13 @@
+﻿using Type = N90_HT1.Domain.Enums.NotificationType;
+
+namespace N90_HT1.Domain.Entities;
+
+public class EmailTemplate : NotificationTemplate
+{
+    public EmailTemplate()
+    {
+        Type = Type.Email;
+    }
+
+    public string Subject { get; set; } = default!;
+}
